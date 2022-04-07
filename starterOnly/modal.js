@@ -174,6 +174,7 @@ function checkTournamentSelection(){
 
 function checkconditionCheckBox(){
   if(conditionCheckBox.checked === true){
+    formData[6].setAttribute("data-error-visible", "false");
     console.log('checked')
     return true;
   }
